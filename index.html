@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Things to Do in Seattle</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background: #e0f7fa;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            max-width: 800px;
+            margin: 50px auto;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            overflow: hidden;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        h1 {
+            color: #00796b;
+            margin: 20px 0;
+            font-size: 2.5em;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 20px 0;
+            color: #555;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #00796b;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #004d40;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .feature {
+            background: #b2ebf2;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1 1 45%;
+            max-width: 45%;
+            text-align: left;
+        }
+        .feature h2 {
+            color: #00796b;
+            font-size: 1.5em;
+            margin-top: 0;
+        }
+        .feature p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="video-container">
+            <video autoplay muted loop>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <h1>Explore Seattle</h1>
+        <p>Discover the best things to do in Seattle, from iconic landmarks to hidden gems.</p>
+        <div class="features">
+            <div class="feature">
+                <h2>Iconic Landmarks</h2>
+                <p>Visit the Space Needle, Pike Place Market, and other famous attractions that define the Seattle skyline.</p>
+            </div>
+            <div class="feature">
+                <h2>Outdoor Adventures</h2>
+                <p>Explore Seattle’s natural beauty with activities like hiking, kayaking, and cycling in and around the city.</p>
+            </div>
+            <div class="feature">
+                <h2>Cultural Experiences</h2>
+                <p>Dive into Seattle’s rich cultural scene with museums, theaters, and music venues offering a wide array of experiences.</p>
+            </div>
+            <div class="feature">
+                <h2>Culinary Delights</h2>
+                <p>Savor Seattle’s diverse food scene, from fresh seafood and gourmet restaurants to food trucks and local coffee shops.</p>
+            </div>
+        </div>
+        <a href="page2.html" class="button">Learn More</a>
+    </div>
+</body>
+</html>
